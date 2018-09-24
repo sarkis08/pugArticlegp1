@@ -1,0 +1,26 @@
+.alert-error{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-success_msg{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.card .card-body p {
+    color: #6e726e;
+}
+
+#particles-js {
+    background: #2b2b2be0;
+    height: 450px;
+}
+
+#create-pb {
+    opacity: .9;
+    position: absolute;
+    top:250px !important;
+}

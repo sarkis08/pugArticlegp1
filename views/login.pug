@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    .col-md-4.offset-md-4
+        h3.text-center Login as User
+        form(method='POST', action='/users/login')
+            #form-group
+                label Username:
+                input.form-control(name='username', type="text")
+            #form-group
+                label Password:
+                input.form-control(name="password", type="password")
+            br
+            input.btn.btn-primary(type="submit", value="SignIn")
+            p Don't have an account? 
+                a.btn.btn-link(href="/users/register") Sign Up
+            br
+            br 
+            br
+            br
